@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumière — студия красоты</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ========== НАВИГАЦИЯ ========== -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">Lumière</div>
+            <nav class="nav">
+                <a href="#services">Услуги</a>
+                <a href="#portfolio">Портфолио</a>
+                <a href="#about">О нас</a>
+                <a href="#reviews">Отзывы</a>
+                <a href="#contact" class="nav-btn">Записаться</a>
+            </nav>
+            <div class="burger" id="burger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="about">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-text">
+                    <div class="hero-badge">✦ Эстетика и профессионализм</div>
+                    <h1>Красота, которая<br><span class="highlight">вдохновляет</span></h1>
+                    <p>Студия Lumière — пространство, где рождается ваша идеальная версия. Макияж, уход, стиль.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn-primary">Записаться</a>
+                        <a href="#portfolio" class="btn-secondary">Наши работы →</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div><span>7+</span> лет опыта</div>
+                        <div><span>1500+</span> довольных клиентов</div>
+                        <div><span>4.9</span> ★ рейтинг</div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-circle"></div>
+                    <div class="hero-circle-small"></div>
+                    <div class="hero-flower">✦</div>
+                    <div class="hero-flower-2">✧</div>
+                    <div class="hero-image-placeholder">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== УСЛУГИ ========== -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-label">Что мы предлагаем</div>
+            <h2 class="section-title">Наши <span class="highlight">услуги</span></h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+                    <h3>Визаж</h3>
+                    <p>Дневной, вечерний, свадебный макияж. Подчеркнём вашу уникальную красоту.</p>
+                    <span class="service-price">от 4 500 ₽</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-leaf"></i></div>
+                    <h3>Уход за кожей</h3>
+                    <p>Профессиональные процедуры, которые возвращают коже здоровье и сияние.</p>
+                    <span class="service-price">от 3 800 ₽</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-cut"></i></div>
+                    <h3>Стиль и образ</h3>
+                    <p>Создаём гармоничный образ, который подчеркнёт вашу индивидуальность.</p>
+                    <span class="service-price">от 5 000 ₽</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-crown"></i></div>
+                    <h3>Свадебный день</h3>
+                    <p>Полный пакет для невесты: макияж, укладка, сопровождение в день торжества.</p>
+                    <span class="service-price">от 12 000 ₽</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ПОРТФОЛИО ========== -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-label">Наши работы</div>
+            <h2 class="section-title">Последние <span class="highlight">проекты</span></h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #f5e6d3, #e8d5c4);">
+                        <span class="portfolio-emoji">💄</span>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>Свадебный макияж</h4>
+                        <p>Нежный образ для фотосессии в ботаническом саду</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #f0e0d4, #e5d0c0);">
+                        <span class="portfolio-emoji">✨</span>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>Вечерний образ</h4>
+                        <p>Гламурный макияж для светского мероприятия</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #f5e8e0, #e6d4c8);">
+                        <span class="portfolio-emoji">🌸</span>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>Ежедневный уход</h4>
+                        <p>Курс процедур для сияющей и здоровой кожи</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #f2e2d8, #e3cec0);">
+                        <span class="portfolio-emoji">👑</span>
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>Образ для невесты</h4>
+                        <p>Полный свадебный пакет: макияж + стилистика</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ПРЕИМУЩЕСТВА ========== -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">✦</div>
+                    <h4>Косметика премиум-класса</h4>
+                    <p>Используем только профессиональные бренды: Chanel, Dior, Tom Ford</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">✧</div>
+                    <h4>Индивидуальный подход</h4>
+                    <p>Учитываем особенности кожи, цветотип и ваши пожелания</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">♡</div>
+                    <h4>Атмосфера комфорта</h4>
+                    <p>Приятная музыка, ароматерапия, уютный интерьер — вы отдыхаете</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ОТЗЫВЫ ========== -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="section-label">Клиенты говорят</div>
+            <h2 class="section-title">Отзывы <span class="highlight">о нас</span></h2>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p>"Макияж для моей свадьбы был безупречен! Я чувствовала себя королевой. Спасибо Lumière!"</p>
+                    <div class="review-author">— Анна, невеста</div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p>"После курса ухода моя кожа преобразилась. Очень деликатные и грамотные специалисты."</p>
+                    <div class="review-author">— Елена, 34 года</div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p>"Образ для фотосессии превзошёл все ожидания. Теперь буду ходить только сюда!"</p>
+                    <div class="review-author">— Мария, блогер</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== КОНТАКТЫ ========== -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="section-label">Свяжитесь с нами</div>
+                    <h2>Запишитесь на <span class="highlight">процедуру</span></h2>
+                    <p>Оставьте заявку, и мы подберём удобное время и идеальный вариант для вас.</p>
+                    <div class="contact-links">
+                        <a href="#"><i class="fas fa-phone"></i> +7 (999) 123-45-67</a>
+                        <a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                        <a href="#"><i class="fab fa-telegram"></i> @lumiere_beauty</a>
+                        <a href="#"><i class="fas fa-map-marker-alt"></i> Москва, ул. Тверская, 15</a>
+                    </div>
+                </div>
+                <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                    <input type="text" name="name" placeholder="Ваше имя" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="text" name="phone" placeholder="Телефон" required>
+                    <select name="service" required>
+                        <option value="">Выберите услугу</option>
+                        <option value="makeup">Визаж</option>
+                        <option value="skincare">Уход за кожей</option>
+                        <option value="style">Стиль и образ</option>
+                        <option value="wedding">Свадебный день</option>
+                    </select>
+                    <textarea name="message" placeholder="Ваши пожелания..." rows="3"></textarea>
+                    <button type="submit" class="btn-primary">Отправить заявку</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ФУТЕР ========== -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Lumière — студия красоты. <span class="footer-heart">✦</span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
